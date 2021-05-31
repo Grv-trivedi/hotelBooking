@@ -1,0 +1,19 @@
+     <div class="container-fluid"
+        style="height: 508px;background-image: url('https://media.istockphoto.com/photos/polite-receptionist-welcoming-hotel-guests-picture-id1176798566?k=6&m=1176798566&s=612x612&w=0&h=Iy2UYgN9JJT4Ypb6MyCDuAnqHItT6Bv1fw-bqWQoCY4=');
+                background-repeat: no-repeat;background-size: 600px 400px;background-position: center;}"> 
+        <div class="container" >
+            <p class="h1"  style="color:#6fef73;text-align:center;font-size: 275%;;
+        font-family: serif">WELCOME TO GT HOTEL</p>
+        </div>
+    </div>
+         <div class="container" style="padding-left: 300px;padding-right: 314px;">
+            <div style="float: left; " >
+                 <%= link_to 'Sign In', new_user_session_path ,:class => "btn btn-default btn-success btn-lg"%>
+            </div>
+        <div style="float: right;">
+            <%# <button type="button" class="btn btn-default  btn-success btn-lg"> %>
+            <%= link_to 'Sign up', new_user_registration_path, :class => "btn btn-default btn-success btn-lg" %>
+            <%# </button> %>
+        </div>
+    
+   </div>
